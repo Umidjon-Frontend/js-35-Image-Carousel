@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.carousel{
+  width: 600px;
+  height: 430px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.carousel .imgs{
+  display: flex;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  width: 49.5%;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0;
+  background-color: #8338ec;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
